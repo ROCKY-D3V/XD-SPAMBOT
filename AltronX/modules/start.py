@@ -10,7 +10,7 @@ PythonButton = [
         [
         Button.url("☆ 𝐂нαииє𝐋 ☆", "https://t.me/XD_N3TWORK"),
         Button.url("☆ 𝐒υρρσя𝐓", "https://t.me/TEAM_SYC0_FIGHTER")
-        ],fun_here
+        ],
         [
         Button.url("☆ 𝐑ꫀρ𝐎", "https://t.me/N91Ab/6")
         ]
