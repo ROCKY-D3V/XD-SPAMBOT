@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ ​𝗢𝗣𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @itsz_shivam**"
+PythonHelp = f"★ 𝗫𝗗 ​𝗦𝗽𝗮𝗺 𝗛𝗲𝗹𝗽 𝗠𝗲𝗻𝘂 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ROCKY_ISS_BACK**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ ​𝗢𝗣𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  " https://telegra.ph/file/0de98f5fe87df8e6b514d.jpg",
+                                  " https://graph.org/file/97ec679cd7e3e146cd230.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/about_skshivam"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fun_here")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/XD_N3TWORK"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TEAM_SYC0_FIGHTER")
            ],
            ],
            )
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/about_skshivam"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fun_here")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/XD_N3TWORK"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TEAM_SYC0_FIGHTER")
            ],
            ],
         )           
    else:
-        await event.answer("Pahle jaake baap bol SPECTRE ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ ᴊᴀᴀᴋᴇ ʙᴀᴀᴘ ʙᴏʟ ʀᴏᴄᴋʏ ᴋᴏ ᴡᴏ ᴛᴜᴍʜᴇ sᴜᴅᴏ ᴅᴇ ᴅᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Pahle jaake baap bol SPECTRE ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ ᴊᴀᴀᴋᴇ ʙᴀᴀᴘ ʙᴏʟ ʀᴏᴄᴋʏ ᴋᴏ ᴡᴏ ᴛᴜᴍʜᴇ sᴜᴅᴏ ᴅᴇ ᴅᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Pahle jaake baap bol SPECTRE ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ ᴊᴀᴀᴋᴇ ʙᴀᴀᴘ ʙᴏʟ ʀᴏᴄᴋʏ ᴋᴏ ᴡᴏ ᴛᴜᴍʜᴇ sᴜᴅᴏ ᴅᴇ ᴅᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Pahle jaake baap bol SPECTRE ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ ᴊᴀᴀᴋᴇ ʙᴀᴀᴘ ʙᴏʟ ʀᴏᴄᴋʏ ᴋᴏ ᴡᴏ ᴛᴜᴍʜᴇ sᴜᴅᴏ ᴅᴇ ᴅᴇɢᴀ", cache_time=0, alert=True)
